@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+
+  fastapi:
+    build: ./
+    image: layout:latest
+    container_name: layout
+    restart: always
+    ports:
+      - 222:8000
+      - 11111:7860
