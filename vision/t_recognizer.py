@@ -127,7 +127,8 @@ def main(input,output_dir,threshold):
         if crop_image != []:
             for j in range(len(crop_image)):
                 # crop_image[j]["image"].save(f"table{j+1}_{outputs[i]}", quality=95)
-                crop_image[j]["image"].save(f"./results/page_{i}_table_{j}.jpg", quality=95)
+                #保存文件
+                # crop_image[j]["image"].save(f"./results/page_{i}_table_{j}.jpg", quality=95)
                 crop_image[j]["image"]=image_to_base64(crop_image[j]["image"])
                 crop_image[j]["page"]=i +1
                 crop_image[j]["index"]=index
