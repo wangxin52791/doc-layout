@@ -10,6 +10,7 @@ WORKDIR /var/layout_table
 ENV TZ "Asia/Shanghai"
 ENV DEBIAN_FRONTEND noninteractive
 ENV PIP_NO_CACHE_DIR off
+RUN sed -i 's|http://deb.debian.org/debian|http://mirrors.aliyun.com/debian|g' /etc/apt/sources.list
 
 # RUN pip install  --upgrade pip -i http://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn
 # RUN pip install --upgrade pip
