@@ -40,6 +40,5 @@ api
 
 ### Team
 
-xin.wang.xw7@roche.com (AIDD intern)
+xin.wang.xw7@roche.com/3387903981@qq.com (Roche AIDD intern)
 
-john.wang.jw6@roche.com
